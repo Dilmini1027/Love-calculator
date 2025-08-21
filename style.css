@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 30px 90px;
+  border-radius: 20px;
+  text-align: center;   /* Align content to left */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 350px;
+}
+
+h1 {
+  color: #9f026b;
+  font-size: 35px;
+  margin-bottom: 50px;
+  text-align: center;  /* Only title centered */
+  font-weight: bold;
+  font-family: cursive;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #330019;
+}
+
+input {
+  width: 100%;  /* Take full width */
+  padding: 10px;
+  margin-top: 8px;
+  border: 2px solid #ff99cc;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s;
+  display: block;
+}
+
+input:focus {
+  border-color: #ff3385;
+  box-shadow: 0 0 8px #ff3385;
+}
+
+button {
+  background: #ff3399;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /*Button stays centered */
+}
+
+button:hover {
+  background: #e60073;
+  box-shadow: 0 0 15px #ff66b2;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #330019;
+  animation: fadeIn 1s ease-in-out;
+  text-align: center;   /* Result aligned left */
+  white-space: pre-line; /* Keeps line breaks */
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
