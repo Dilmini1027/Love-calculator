@@ -8,6 +8,9 @@ This project was created for **learning and practicing JavaScript** concepts lik
 ## Demo
 
 Enter your name and your partner's name, click the "Calculate" button, and get a **fun love percentage** along with a cute message!
+Live Demo
+
+Check out the live version of this project here: https://dilmini1027.github.io/Love-calculator/
 
 ---
 
